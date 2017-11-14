@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body id="wholeThing">
+
+    <div class="jumbotron" id="header">
+        <img id="topImageL" src="assets/images/giphy-left.gif">
+        <img id="topImageR" src="assets/images/giphy-right.gif">
+        <h1>For omg please work</h1>
+        <h4>Click the buttons to display GIPHYs<br>Click the GIPHYs to pause and play<br>Search to add more buttons!</h4>
+    </div>
+
+    <form class="form-inline" id="whatevesSearch">
+        <div class="form-group">
+            <label for="whatevesInput">Search Anything</label>
+            <input type="text" id="whatevesInput">
+        </div>
+
+        <input id="addGIF" type="submit" value="submit">
+    </form>
+
+    <div class="row">
+        <div class="container">
+            <div class="btn-group inline pull-left">
+                <button class="btn btn-primary" id="show" data-search="rick and morty">Rick and Morty</button>
+                <button class="btn btn-primary" id="show" data-search="southpark">South Park</button>
+                <button class="btn btn-primary" id="show" data-search="Regular Show">Regular Show</button>
+                <button class="btn btn-primary" id="show" data-search="Big Mouth">Big Mouth</button>
+
+                <div id="myButtons"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="container">
+            <span><div id="gifArea"></div></span>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>

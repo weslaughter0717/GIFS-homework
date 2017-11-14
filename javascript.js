@@ -29,7 +29,7 @@ $(document).ready(function() {
                 var p = $("<p>").text("Rating: " + rating);
 
                 showImage.attr("src", staticSrc);
-                showImage.addClass("whateverGiphy");
+                showImage.addClass("whatevesGiphy");
                 showImage.attr("data-state", "still");
                 showImage.attr("data-still", staticSrc);
                 showImage.attr("data-animate", defaultAnimatedSrc);
